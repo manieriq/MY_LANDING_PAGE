@@ -1,0 +1,154 @@
+@media screen {max-wid 
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;    
+    
+}
+
+.head {
+    margin: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+
+.all_sec1 {
+    background-color: #1F2937;
+    margin: 40
+  
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+h2 {
+    color: white;
+    font-size: 24px;
+}
+.all_sec2{ color: white;
+    margin: 100px 0px 0px 100px; 
+    display: flex;
+    justify-content: space-between;
+    
+}
+.pholder{
+    background-color: #373839;
+    padding: 70px;
+    margin: 0px 100px 0px 0px;
+    
+    
+}
+.su{
+    background-color: #3882f6;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    color: white;
+    margin: 0px 0px 100px 0px;
+    border-style: solid;
+    font-size: 12px;
+}
+h1{
+    font-size: 48px;
+    line-height: 50px;
+}
+.content{
+    
+}
+.info{
+    color: black;
+    margin: 0px 100px 0px 100px;
+    padding: 25px;
+    text-align: center;
+}
+.images{ 
+    display: flex;
+    gap: 25px;
+    text-align: center;
+    line-height: 15px;
+    padding: 0px 500px 0px 500px;
+  
+}
+img{
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+}
+figcaption{ 
+    font-size: 10px;
+
+    
+}
+.quote{
+    background-color: #e5e7eb;
+    text-align: center;
+    margin: 40px 300px;
+    padding: 50px;
+    font-size: 18px;
+    
+}
+
+.thor{
+    text-align: right;
+
+}
+.action{
+    background-color: #3882f6;
+    margin: 40px 450px;
+    padding: 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+.time{
+    margin: 0px 50px 0px 50px;
+    line-height: normal;
+}
+.call{
+    font-weight: bolder;
+}
+
+.btn1{
+    border-radius: 5px;
+    border-style:solid;
+    border-color: white;
+    color: white;
+    background-color: #3882f6;
+    margin: 0px 20px 0px 20px;
+    padding: 5px 20px 5px 20px;
+    font-weight: bold;
+    font-size: 10px;
+
+}
+footer{
+    text-align: center;
+    background-color: #1F2937;
+    margin: 40px 300px;
+    color: white;
+    font-size: 10px;
+    padding: 15px;
+}
